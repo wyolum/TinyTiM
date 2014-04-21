@@ -16,121 +16,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 5400 3200 0    40   ~ 0
-DO_H
-Wire Wire Line
-	5600 3200 5400 3200
-$Comp
-L CONN_2 P122
-U 1 1 511F1A88
-P 5950 3150
-F 0 "P122" V 5900 3150 50  0000 C CNN
-F 1 "DO_H_SER" V 6100 3150 50  0000 C CNN
-F 2 "SIL-PWR-2" V 6100 3150 50  0001 C CNN
-F 3 "" H 5950 3150 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5950 3250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 5950 3350 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 5950 3450 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 5950 3550 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 5950 3650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 5950 3750 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 5950 3850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5950 3950 60  0001 L CNN "Field11"
-	1    5950 3150
-	1    0    0    -1  
-$EndComp
-Text Label 1400 3200 2    40   ~ 0
-DI_A
-Wire Wire Line
-	1400 3200 1200 3200
-$Comp
-L CONN_2 P121
-U 1 1 511F1A68
-P 850 3150
-F 0 "P121" V 800 3150 50  0000 C CNN
-F 1 "DI_A_SER" V 1000 3150 50  0000 C CNN
-F 2 "SIL-PWR" V 1000 3150 50  0001 C CNN
-F 3 "" H 850 3150 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 850 3250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 850 3350 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 850 3450 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 850 3550 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 850 3650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 850 3750 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 850 3850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 850 3950 60  0001 L CNN "Field11"
-	1    850  3150
-	-1   0    0    -1  
-$EndComp
-Text Label 2150 1700 1    40   ~ 0
-DO_H
-Wire Wire Line
-	2150 1700 2150 1500
-$Comp
-L CONN_2 P119
-U 1 1 511F175B
-P 2200 1150
-F 0 "P119" V 2150 1150 50  0000 C CNN
-F 1 "DO_H_SER" V 2350 1150 50  0000 C CNN
-F 2 "SIL-PWR-2" V 2350 1150 50  0001 C CNN
-F 3 "" H 2200 1150 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 2200 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 2200 1350 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 2200 1450 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 2200 1550 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 2200 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 2200 1750 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 2200 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 2200 1950 60  0001 L CNN "Field11"
-	1    2200 1150
-	0    -1   -1   0   
-$EndComp
-Text Label 3750 1700 1    40   ~ 0
-DI_A
-Wire Wire Line
-	3750 1700 3750 1500
-$Comp
-L CONN_2 P120
-U 1 1 511F1738
-P 3700 1150
-F 0 "P120" V 3650 1150 50  0000 C CNN
-F 1 "DI_A_SER" V 3850 1150 50  0000 C CNN
-F 2 "SIL-PWR-2" V 3850 1150 50  0001 C CNN
-F 3 "" H 3700 1150 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 3700 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 3700 1350 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 3700 1450 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 3700 1550 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 3700 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 3700 1750 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 3700 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 3700 1950 60  0001 L CNN "Field11"
-	1    3700 1150
-	0    -1   -1   0   
-$EndComp
-Text Label 3650 3650 3    40   ~ 0
-DO_H
-Wire Wire Line
-	3650 3650 3650 3850
-$Comp
-L CONN_2 P124
-U 1 1 511F170C
-P 3700 4200
-F 0 "P124" V 3650 4200 50  0000 C CNN
-F 1 "DO_H_Ser" V 3850 4200 50  0000 C CNN
-F 2 "SIL-PWR" V 3850 4200 50  0001 C CNN
-F 3 "" H 3700 4200 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 3700 4300 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 3700 4400 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 3700 4500 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 3700 4600 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 3700 4700 60  0001 L CNN "Field8"
-F 9 "Digikey" H 3700 4800 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 3700 4900 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 3700 5000 60  0001 L CNN "Field11"
-	1    3700 4200
-	0    -1   1    0   
-$EndComp
 $Bitmap
 Pos 6475 7350
 Scale 1.000000
@@ -798,7 +683,7 @@ D7 EB F5 72 B9 9C CF E7 52 CA 38 8E 8F C7 63 59 96 69 9A EE F7 FB B2 2C F3 3C CF
 10 2C 20 86 60 01 31 04 0B 88 21 58 40 0C C1 02 62 08 16 10 43 B0 80 18 82 05 C4 10 2C 20 86 60 
 01 31 04 0B 88 21 58 40 0C C1 02 62 08 16 10 43 B0 80 18 82 05 C4 10 2C 20 86 60 01 31 04 0B 88 
 21 58 40 0C C1 02 62 08 16 10 43 B0 80 18 82 05 C4 10 2C 20 86 60 01 31 04 0B 88 21 58 40 0C C1 
-02 62 7C 03 3D 79 5E 0E 30 13 47 E7 00 00 00 00 49 45 4E 44 AE 42 60 82 F0 
+02 62 7C 03 3D 79 5E 0E 30 13 47 E7 00 00 00 00 49 45 4E 44 AE 42 60 82 F8 
 EndData
 $EndBitmap
 $Bitmap
@@ -1299,21 +1184,9 @@ AB AA AA 9E 7A EA A9 AF 7F FD EB 96 92 F3 65 EC E2 3F 1B 3E F1 7C 00 00 B3 D9 FC
 89 7F F8 87 7F 50 B7 A1 2F 08 AD 56 7B E8 D0 A1 6F 7C E3 1B 0F 3E F8 E0 96 03 00 EF E2 3F 1B 3E 
 C1 ED 35 72 E0 F7 FB FF F1 1F FF F1 9F FF F9 9F C7 C7 C7 73 1A 9F 2B 70 38 1C FB F6 ED 3B 79 F2 
 E4 23 8F 3C 52 B0 F1 D9 2E 76 F1 FF 03 17 ED 19 47 28 92 59 FB 00 00 00 00 49 45 4E 44 AE 42 60 
-82 E4 
+82 F4 
 EndData
 $EndBitmap
-Wire Wire Line
-	3650 1700 3650 1500
-Wire Wire Line
-	3750 3650 3750 3850
-Wire Wire Line
-	1400 3100 1200 3100
-Wire Wire Line
-	5600 3100 5400 3100
-Wire Wire Line
-	2250 3850 2250 3650
-Wire Wire Line
-	2250 1700 2250 1500
 Wire Wire Line
 	2300 7450 2850 7450
 Wire Wire Line
@@ -1351,121 +1224,11 @@ Wire Notes Line
 Wire Notes Line
 	600  600  6500 600 
 Wire Wire Line
-	5400 1700 5600 1700
+	4850 1700 5100 1700
 Wire Wire Line
-	5400 1800 5600 1800
+	4850 1800 5100 1800
 Wire Wire Line
-	1200 1800 1400 1800
-Wire Wire Line
-	1650 1500 1650 1700
-Wire Wire Line
-	1550 1700 1550 1500
-Wire Wire Line
-	5150 1700 5150 1500
-Wire Wire Line
-	5250 1500 5250 1700
-Wire Wire Line
-	5150 3850 5150 3650
-Wire Wire Line
-	5250 3650 5250 3850
-Wire Wire Line
-	1650 3650 1650 3850
-Wire Wire Line
-	3050 3850 3050 3650
-Wire Wire Line
-	2850 3850 2850 3650
-Wire Wire Line
-	2650 3850 2650 3650
-Wire Wire Line
-	2450 3850 2450 3650
-Wire Wire Line
-	2550 3650 2550 3850
-Wire Wire Line
-	2750 3650 2750 3850
-Wire Wire Line
-	2950 3650 2950 3850
-Wire Wire Line
-	3150 3650 3150 3850
-Wire Wire Line
-	1400 2200 1200 2200
-Wire Wire Line
-	1400 2400 1200 2400
-Wire Wire Line
-	1400 2600 1200 2600
-Wire Wire Line
-	1400 2800 1200 2800
-Wire Wire Line
-	1200 2700 1400 2700
-Wire Wire Line
-	1200 2500 1400 2500
-Wire Wire Line
-	1200 2300 1400 2300
-Wire Wire Line
-	1200 2100 1400 2100
-Wire Wire Line
-	5400 2100 5600 2100
-Wire Wire Line
-	5400 2300 5600 2300
-Wire Wire Line
-	5400 2500 5600 2500
-Wire Wire Line
-	5400 2700 5600 2700
-Wire Wire Line
-	5600 2800 5400 2800
-Wire Wire Line
-	5600 2600 5400 2600
-Wire Wire Line
-	5600 2400 5400 2400
-Wire Wire Line
-	5600 2200 5400 2200
-Wire Wire Line
-	3050 1700 3050 1500
-Wire Wire Line
-	2850 1700 2850 1500
-Wire Wire Line
-	2650 1700 2650 1500
-Wire Wire Line
-	2450 1700 2450 1500
-Wire Wire Line
-	2550 1500 2550 1700
-Wire Wire Line
-	2750 1500 2750 1700
-Wire Wire Line
-	2950 1500 2950 1700
-Wire Wire Line
-	3150 1500 3150 1700
-Wire Wire Line
-	4650 1500 4650 1700
-Wire Wire Line
-	4450 1500 4450 1700
-Wire Wire Line
-	4250 1500 4250 1700
-Wire Wire Line
-	4050 1500 4050 1700
-Wire Wire Line
-	3950 1700 3950 1500
-Wire Wire Line
-	4150 1700 4150 1500
-Wire Wire Line
-	4350 1700 4350 1500
-Wire Wire Line
-	4550 1700 4550 1500
-Wire Wire Line
-	4550 3850 4550 3650
-Wire Wire Line
-	4350 3850 4350 3650
-Wire Wire Line
-	4150 3850 4150 3650
-Wire Wire Line
-	3950 3850 3950 3650
-Wire Wire Line
-	4050 3650 4050 3850
-Wire Wire Line
-	4250 3650 4250 3850
-Wire Wire Line
-	4450 3650 4450 3850
-Wire Wire Line
-	4650 3650 4650 3850
+	1700 1800 1950 1800
 Wire Wire Line
 	8000 1250 7350 1250
 Wire Wire Line
@@ -1529,7 +1292,7 @@ Wire Wire Line
 Wire Wire Line
 	900  5725 1550 5725
 Wire Wire Line
-	1550 5175 900  5175
+	900  5175 1550 5175
 Wire Wire Line
 	1300 5675 1300 5775
 Connection ~ 1300 5725
@@ -1541,9 +1304,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 6500 7350 6500
 Wire Wire Line
-	1550 3850 1550 3650
-Wire Wire Line
-	1200 1700 1400 1700
+	1700 1700 1950 1700
 Wire Notes Line
 	7000 6900 7000 600 
 Wire Notes Line
@@ -1560,29 +1321,6 @@ Wire Notes Line
 	2100 7750 3500 7750
 Wire Notes Line
 	3500 7750 3500 4950
-Wire Wire Line
-	2150 3850 2150 3650
-Text Label 2150 3650 3    40   ~ 0
-DI_A
-$Comp
-L CONN_2 P123
-U 1 1 511F1413
-P 2200 4200
-F 0 "P123" V 2150 4200 50  0000 C CNN
-F 1 "DI_A_Ser" V 2350 4200 50  0000 C CNN
-F 2 "SIL-PWR" V 2350 4200 50  0001 C CNN
-F 3 "" H 2200 4200 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 2200 4300 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 2200 4400 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 2200 4500 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 2200 4600 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 2200 4700 60  0001 L CNN "Field8"
-F 9 "Digikey" H 2200 4800 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 2200 4900 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 2200 5000 60  0001 L CNN "Field11"
-	1    2200 4200
-	0    -1   1    0   
-$EndComp
 NoConn ~ 800  7500
 NoConn ~ 1050 7500
 $Comp
@@ -1622,19 +1360,7 @@ $EndComp
 Text Notes 2150 5150 0    60   ~ 12
 Jumpers to create\na Series connected TiM
 Text Notes 650  800  0    60   ~ 12
-Stacking Expansion Connectors\nfor creating TIMM's
-Text Label 3650 1700 1    40   ~ 0
-DI_A
-Text Label 3750 3650 3    40   ~ 0
-DO_H
-Text Label 1400 3100 2    40   ~ 0
-DI_A
-Text Label 5400 3100 0    40   ~ 0
-DO_H
-Text Label 2250 3650 3    40   ~ 0
-DI_A
-Text Label 2250 1700 1    40   ~ 0
-DO_H
+Stacking Expansion Connectors\nfor creating TinyTiM matrices
 $Comp
 L CONN_2 P125
 U 1 1 5118A74D
@@ -1796,468 +1522,52 @@ Text Label 2300 6050 0    60   ~ 0
 DO_F
 Text Label 2300 5750 0    60   ~ 0
 DO_G
-$Comp
-L CONN4_S P117
-U 1 1 511897C0
-P 4500 4200
-F 0 "P117" V 4450 4200 50  0000 C CNN
-F 1 "DO_S2" V 4550 4200 50  0000 C CNN
-F 2 "CONN_S" V 4650 4200 50  0001 C CNN
-F 3 "" H 4500 4200 60  0001 C CNN
-F 4 "CONN RCPT 4POS .100\" SNGL HORZ" H 4500 4300 60  0001 L CNN "Field4"
-F 5 "Header, Female" H 4500 4400 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 4500 4500 60  0001 L CNN "Field6"
-F 7 "Samtec" H 4500 4600 60  0001 L CNN "Field7"
-F 8 "BCS-104-L-S-HE" H 4500 4700 60  0001 L CNN "Field8"
-F 9 "Arrow" H 4500 4800 60  0001 L CNN "Field9"
-F 10 "BCS-104-L-S-HE" H 4500 4900 60  0001 L CNN "Field10"
-F 11 "http://components.arrow.com/part/detail/2769370S3578027N1004" H 4500 5000 60  0001 L CNN "Field11"
-	1    4500 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN4_S P116
-U 1 1 511897BE
-P 4100 4200
-F 0 "P116" V 4050 4200 50  0000 C CNN
-F 1 "DO_S1" V 4150 4200 50  0000 C CNN
-F 2 "CONN_S" V 4250 4200 50  0001 C CNN
-F 3 "" H 4100 4200 60  0001 C CNN
-F 4 "CONN RCPT 4POS .100\" SNGL HORZ" H 4100 4300 60  0001 L CNN "Field4"
-F 5 "Header, Female" H 4100 4400 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 4100 4500 60  0001 L CNN "Field6"
-F 7 "Samtec" H 4100 4600 60  0001 L CNN "Field7"
-F 8 "BCS-104-L-S-HE" H 4100 4700 60  0001 L CNN "Field8"
-F 9 "Arrow" H 4100 4800 60  0001 L CNN "Field9"
-F 10 "BCS-104-L-S-HE" H 4100 4900 60  0001 L CNN "Field10"
-F 11 "http://components.arrow.com/part/detail/2769370S3578027N1004" H 4100 5000 60  0001 L CNN "Field11"
-	1    4100 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L CONN4_S P115
-U 1 1 511897BC
-P 3000 4200
-F 0 "P115" V 2950 4200 50  0000 C CNN
-F 1 "DI_S2" V 3050 4200 50  0000 C CNN
-F 2 "CONN_N" V 3150 4200 50  0001 C CNN
-F 3 "" H 3000 4200 60  0001 C CNN
-F 4 "CONN RCPT 4POS .100\" SNGL HORZ" H 3000 4300 60  0001 L CNN "Field4"
-F 5 "Header, Female" H 3000 4400 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 3000 4500 60  0001 L CNN "Field6"
-F 7 "Samtec" H 3000 4600 60  0001 L CNN "Field7"
-F 8 "BCS-104-L-S-HE" H 3000 4700 60  0001 L CNN "Field8"
-F 9 "Arrow" H 3000 4800 60  0001 L CNN "Field9"
-F 10 "BCS-104-L-S-HE" H 3000 4900 60  0001 L CNN "Field10"
-F 11 "http://components.arrow.com/part/detail/2769370S3578027N1004" H 3000 5000 60  0001 L CNN "Field11"
-	1    3000 4200
-	0    -1   1    0   
-$EndComp
-$Comp
-L CONN4_S P114
-U 1 1 511897AE
-P 2600 4200
-F 0 "P114" V 2550 4200 50  0000 C CNN
-F 1 "DI_S1" V 2650 4200 50  0000 C CNN
-F 2 "CONN_N" V 2750 4200 50  0001 C CNN
-F 3 "" H 2600 4200 60  0001 C CNN
-F 4 "CONN RCPT 4POS .100\" SNGL HORZ" H 2600 4300 60  0001 L CNN "Field4"
-F 5 "Header, Female" H 2600 4400 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 2600 4500 60  0001 L CNN "Field6"
-F 7 "Samtec" H 2600 4600 60  0001 L CNN "Field7"
-F 8 "BCS-104-L-S-HE" H 2600 4700 60  0001 L CNN "Field8"
-F 9 "Arrow" H 2600 4800 60  0001 L CNN "Field9"
-F 10 "BCS-104-L-S-HE" H 2600 4900 60  0001 L CNN "Field10"
-F 11 "http://components.arrow.com/part/detail/2769370S3578027N1004" H 2600 5000 60  0001 L CNN "Field11"
-	1    2600 4200
-	0    -1   1    0   
-$EndComp
-$Comp
-L CONN_E P110
-U 1 1 51189707
-P 5950 2250
-F 0 "P110" V 5900 2250 50  0000 C CNN
-F 1 "DO_E2" V 6000 2250 50  0000 C CNN
-F 2 "CONN_S" V 6100 2250 50  0001 C CNN
-F 3 "" H 5950 2250 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5950 2350 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 5950 2450 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 5950 2550 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 5950 2650 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 5950 2750 60  0001 L CNN "Field8"
-F 9 "Digikey" H 5950 2850 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 5950 2950 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5950 3050 60  0001 L CNN "Field11"
-	1    5950 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_E P112
-U 1 1 511896FC
-P 5950 2650
-F 0 "P112" V 5900 2650 50  0000 C CNN
-F 1 "DO_E1" V 6000 2650 50  0000 C CNN
-F 2 "CONN_S" V 6100 2650 50  0001 C CNN
-F 3 "" H 5950 2650 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5950 2750 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 5950 2850 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 5950 2950 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 5950 3050 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 5950 3150 60  0001 L CNN "Field8"
-F 9 "Digikey" H 5950 3250 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 5950 3350 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5950 3450 60  0001 L CNN "Field11"
-	1    5950 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_W P109
-U 1 1 5118967E
-P 850 2250
-F 0 "P109" V 800 2250 50  0000 C CNN
-F 1 "DI_W2" V 900 2250 50  0000 C CNN
-F 2 "CONN_N" V 1000 2250 50  0001 C CNN
-F 3 "" H 850 2250 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 850 2350 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 850 2450 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 850 2550 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 850 2650 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 850 2750 60  0001 L CNN "Field8"
-F 9 "Digikey" H 850 2850 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 850 2950 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 850 3050 60  0001 L CNN "Field11"
-	1    850  2250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_W P111
-U 1 1 51189670
-P 850 2650
-F 0 "P111" V 800 2650 50  0000 C CNN
-F 1 "DI_W1" V 900 2650 50  0000 C CNN
-F 2 "CONN_N" V 1000 2650 50  0001 C CNN
-F 3 "" H 850 2650 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 850 2750 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 850 2850 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 850 2950 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 850 3050 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 850 3150 60  0001 L CNN "Field8"
-F 9 "Digikey" H 850 3250 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 850 3350 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 850 3450 60  0001 L CNN "Field11"
-	1    850  2650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_N P105
-U 1 1 5118960C
-P 4500 1150
-F 0 "P105" V 4450 1150 50  0000 C CNN
-F 1 "DI_N2" V 4550 1150 50  0000 C CNN
-F 2 "CONN_N" V 4650 1150 50  0001 C CNN
-F 3 "" H 4500 1150 60  0001 C CNN
-F 4 "CONN HEADER 16POS .100 R/A 30AU" H 4500 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 4500 1350 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 4500 1450 60  0001 L CNN "Field6"
-F 7 "FCI" H 4500 1550 60  0001 L CNN "Field7"
-F 8 "68016-116HLF" H 4500 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 4500 1750 60  0001 L CNN "Field9"
-F 10 "609-3317-ND" H 4500 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/68016-116HLF/609-3317-ND/1878554" H 4500 1950 60  0001 L CNN "Field11"
-	1    4500 1150
-	0    1    -1   0   
-$EndComp
-$Comp
-L CONN_N P104
-U 1 1 51189609
-P 4100 1150
-F 0 "P104" V 4050 1150 50  0000 C CNN
-F 1 "DI_N1" V 4150 1150 50  0000 C CNN
-F 2 "CONN_N" V 4250 1150 50  0001 C CNN
-F 3 "" H 4100 1150 60  0001 C CNN
-F 4 "CONN HEADER 16POS .100 R/A 30AU" H 4100 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 4100 1350 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 4100 1450 60  0001 L CNN "Field6"
-F 7 "FCI" H 4100 1550 60  0001 L CNN "Field7"
-F 8 "68016-116HLF" H 4100 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 4100 1750 60  0001 L CNN "Field9"
-F 10 "609-3317-ND" H 4100 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/68016-116HLF/609-3317-ND/1878554" H 4100 1950 60  0001 L CNN "Field11"
-	1    4100 1150
-	0    1    -1   0   
-$EndComp
-$Comp
-L CONN_N P103
-U 1 1 51189605
-P 3000 1150
-F 0 "P103" V 2950 1150 50  0000 C CNN
-F 1 "DO_N2" V 3050 1150 50  0000 C CNN
-F 2 "CONN_S" V 3150 1150 50  0001 C CNN
-F 3 "" H 3000 1150 60  0001 C CNN
-F 4 "CONN HEADER 16POS .100 R/A 30AU" H 3000 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 3000 1350 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 3000 1450 60  0001 L CNN "Field6"
-F 7 "FCI" H 3000 1550 60  0001 L CNN "Field7"
-F 8 "68016-116HLF" H 3000 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 3000 1750 60  0001 L CNN "Field9"
-F 10 "609-3317-ND" H 3000 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/68016-116HLF/609-3317-ND/1878554" H 3000 1950 60  0001 L CNN "Field11"
-	1    3000 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_N P102
-U 1 1 511895FA
-P 2600 1150
-F 0 "P102" V 2550 1150 50  0000 C CNN
-F 1 "DO_N1" V 2650 1150 50  0000 C CNN
-F 2 "CONN_S" V 2750 1150 50  0001 C CNN
-F 3 "" H 2600 1150 60  0001 C CNN
-F 4 "CONN HEADER 16POS .100 R/A 30AU" H 2600 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 2600 1350 60  0001 L CNN "Field5"
-F 6 "0.1\" right angle" H 2600 1450 60  0001 L CNN "Field6"
-F 7 "FCI" H 2600 1550 60  0001 L CNN "Field7"
-F 8 "68016-116HLF" H 2600 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 2600 1750 60  0001 L CNN "Field9"
-F 10 "609-3317-ND" H 2600 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/product-detail/en/68016-116HLF/609-3317-ND/1878554" H 2600 1950 60  0001 L CNN "Field11"
-	1    2600 1150
-	0    -1   -1   0   
-$EndComp
-Text Label 5400 1700 0    40   ~ 0
+Text Label 4850 1700 0    40   ~ 0
 5V
-Text Label 5400 1800 0    40   ~ 0
+Text Label 4850 1800 0    40   ~ 0
 GND
-Text Label 1400 1800 2    40   ~ 0
+Text Label 1950 1800 2    40   ~ 0
 GND
-Text Label 1400 1700 2    40   ~ 0
-5V
-Text Label 1550 1700 1    40   ~ 0
-5V
-Text Label 1650 1700 1    40   ~ 0
-GND
-Text Label 5250 1700 1    40   ~ 0
-GND
-Text Label 5150 1700 1    40   ~ 0
-5V
-Text Label 5150 3650 3    40   ~ 0
-5V
-Text Label 5250 3650 3    40   ~ 0
-GND
-Text Label 1650 3650 3    40   ~ 0
-GND
-Text Label 1550 3650 3    40   ~ 0
+Text Label 1950 1700 2    40   ~ 0
 5V
 $Comp
-L CONN_2 P108
+L CONN_2 P2
 U 1 1 5117DBCC
-P 5950 1750
-F 0 "P108" V 5900 1750 50  0000 C CNN
-F 1 "PWR_E" V 6100 1750 50  0000 C CNN
-F 2 "SIL-PWR-2" V 6100 1750 50  0001 C CNN
-F 3 "" H 5950 1750 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5950 1850 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 5950 1950 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 5950 2050 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 5950 2150 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 5950 2250 60  0001 L CNN "Field8"
-F 9 "Digikey" H 5950 2350 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 5950 2450 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5950 2550 60  0001 L CNN "Field11"
-	1    5950 1750
+P 5450 1750
+F 0 "P2" H 5450 1925 50  0000 C CNN
+F 1 "PWR_E" V 5600 1750 50  0000 C CNN
+F 2 "SIL-PWR-2" V 5600 1750 50  0001 C CNN
+F 3 "" H 5450 1750 60  0001 C CNN
+F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5450 1850 60  0001 L CNN "Field4"
+F 5 "Header, Unshrouded, Male pin," H 5450 1950 60  0001 L CNN "Field5"
+F 6 "0.1\"" H 5450 2050 60  0001 L CNN "Field6"
+F 7 "Samtec Inc" H 5450 2150 60  0001 L CNN "Field7"
+F 8 "TSW-150-07-L-S" H 5450 2250 60  0001 L CNN "Field8"
+F 9 "Digikey" H 5450 2350 60  0001 L CNN "Field9"
+F 10 "SAM1031-50-ND" H 5450 2450 60  0001 L CNN "Field10"
+F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5450 2550 60  0001 L CNN "Field11"
+	1    5450 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_2 P107
+L CONN_2 P1
 U 1 1 5117DBB4
-P 850 1750
-F 0 "P107" V 800 1750 50  0000 C CNN
-F 1 "PWR_W" V 1000 1750 50  0000 C CNN
-F 2 "SIL-PWR" V 1000 1750 50  0001 C CNN
-F 3 "" H 850 1750 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 850 1850 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 850 1950 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 850 2050 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 850 2150 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 850 2250 60  0001 L CNN "Field8"
-F 9 "Digikey" H 850 2350 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 850 2450 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 850 2550 60  0001 L CNN "Field11"
-	1    850  1750
+P 1350 1750
+F 0 "P1" H 1350 1900 50  0000 C CNN
+F 1 "PWR_W" V 1500 1750 50  0000 C CNN
+F 2 "SIL-PWR" V 1500 1750 50  0001 C CNN
+F 3 "" H 1350 1750 60  0001 C CNN
+F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 1350 1850 60  0001 L CNN "Field4"
+F 5 "Header, Unshrouded, Male pin," H 1350 1950 60  0001 L CNN "Field5"
+F 6 "0.1\"" H 1350 2050 60  0001 L CNN "Field6"
+F 7 "Samtec Inc" H 1350 2150 60  0001 L CNN "Field7"
+F 8 "TSW-150-07-L-S" H 1350 2250 60  0001 L CNN "Field8"
+F 9 "Digikey" H 1350 2350 60  0001 L CNN "Field9"
+F 10 "SAM1031-50-ND" H 1350 2450 60  0001 L CNN "Field10"
+F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 1350 2550 60  0001 L CNN "Field11"
+	1    1350 1750
 	-1   0    0    -1  
 $EndComp
-$Comp
-L CONN_2 P106
-U 1 1 5117DB92
-P 5200 1150
-F 0 "P106" V 5150 1150 50  0000 C CNN
-F 1 "PWR_NE" V 5350 1150 50  0000 C CNN
-F 2 "SIL-PWR-2" V 5350 1150 50  0001 C CNN
-F 3 "" H 5200 1150 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5200 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 5200 1350 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 5200 1450 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 5200 1550 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 5200 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 5200 1750 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 5200 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5200 1950 60  0001 L CNN "Field11"
-	1    5200 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_2 P101
-U 1 1 5117DB74
-P 1600 1150
-F 0 "P101" V 1550 1150 50  0000 C CNN
-F 1 "PWR_NW" V 1750 1150 50  0000 C CNN
-F 2 "SIL-PWR-2" V 1750 1150 50  0001 C CNN
-F 3 "" H 1600 1150 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 1600 1250 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 1600 1350 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 1600 1450 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 1600 1550 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 1600 1650 60  0001 L CNN "Field8"
-F 9 "Digikey" H 1600 1750 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 1600 1850 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 1600 1950 60  0001 L CNN "Field11"
-	1    1600 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_2 P118
-U 1 1 5117DB48
-P 5200 4200
-F 0 "P118" V 5150 4200 50  0000 C CNN
-F 1 "PWR_SE" V 5350 4200 50  0000 C CNN
-F 2 "SIL-PWR" V 5350 4200 50  0001 C CNN
-F 3 "" H 5200 4200 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 5200 4300 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 5200 4400 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 5200 4500 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 5200 4600 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 5200 4700 60  0001 L CNN "Field8"
-F 9 "Digikey" H 5200 4800 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 5200 4900 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 5200 5000 60  0001 L CNN "Field11"
-	1    5200 4200
-	0    -1   1    0   
-$EndComp
-$Comp
-L CONN_2 P113
-U 1 1 5117DADB
-P 1600 4200
-F 0 "P113" V 1550 4200 50  0000 C CNN
-F 1 "PWR_SW" V 1750 4200 50  0000 C CNN
-F 2 "SIL-PWR" V 1750 4200 50  0001 C CNN
-F 3 "" H 1600 4200 60  0001 C CNN
-F 4 "CONN HEADER 50POS .100\" SGL GOLD" H 1600 4300 60  0001 L CNN "Field4"
-F 5 "Header, Unshrouded, Male pin," H 1600 4400 60  0001 L CNN "Field5"
-F 6 "0.1\"" H 1600 4500 60  0001 L CNN "Field6"
-F 7 "Samtec Inc" H 1600 4600 60  0001 L CNN "Field7"
-F 8 "TSW-150-07-L-S" H 1600 4700 60  0001 L CNN "Field8"
-F 9 "Digikey" H 1600 4800 60  0001 L CNN "Field9"
-F 10 "SAM1031-50-ND" H 1600 4900 60  0001 L CNN "Field10"
-F 11 "http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD" H 1600 5000 60  0001 L CNN "Field11"
-	1    1600 4200
-	0    -1   1    0   
-$EndComp
-Text Label 2450 3650 3    40   ~ 0
-DI_A
-Text Label 2550 3650 3    40   ~ 0
-DI_B
-Text Label 2650 3650 3    40   ~ 0
-DI_C
-Text Label 2750 3650 3    40   ~ 0
-DI_D
-Text Label 2850 3650 3    40   ~ 0
-DI_E
-Text Label 2950 3650 3    40   ~ 0
-DI_F
-Text Label 3050 3650 3    40   ~ 0
-DI_G
-Text Label 3150 3650 3    40   ~ 0
-DI_H
-Text Label 1400 2800 2    40   ~ 0
-DI_A
-Text Label 1400 2700 2    40   ~ 0
-DI_B
-Text Label 1400 2600 2    40   ~ 0
-DI_C
-Text Label 1400 2500 2    40   ~ 0
-DI_D
-Text Label 1400 2400 2    40   ~ 0
-DI_E
-Text Label 1400 2300 2    40   ~ 0
-DI_F
-Text Label 1400 2200 2    40   ~ 0
-DI_G
-Text Label 1400 2100 2    40   ~ 0
-DI_H
-Text Label 5400 2800 0    40   ~ 0
-DO_A
-Text Label 5400 2700 0    40   ~ 0
-DO_B
-Text Label 5400 2600 0    40   ~ 0
-DO_C
-Text Label 5400 2500 0    40   ~ 0
-DO_D
-Text Label 5400 2400 0    40   ~ 0
-DO_E
-Text Label 5400 2300 0    40   ~ 0
-DO_F
-Text Label 5400 2200 0    40   ~ 0
-DO_G
-Text Label 5400 2100 0    40   ~ 0
-DO_H
-Text Label 3150 1700 1    40   ~ 0
-DO_H
-Text Label 3050 1700 1    40   ~ 0
-DO_G
-Text Label 2950 1700 1    40   ~ 0
-DO_F
-Text Label 2850 1700 1    40   ~ 0
-DO_E
-Text Label 2750 1700 1    40   ~ 0
-DO_D
-Text Label 2650 1700 1    40   ~ 0
-DO_C
-Text Label 2550 1700 1    40   ~ 0
-DO_B
-Text Label 2450 1700 1    40   ~ 0
-DO_A
-Text Label 3950 3650 3    40   ~ 0
-DO_A
-Text Label 4050 3650 3    40   ~ 0
-DO_B
-Text Label 4150 3650 3    40   ~ 0
-DO_C
-Text Label 4250 3650 3    40   ~ 0
-DO_D
-Text Label 4350 3650 3    40   ~ 0
-DO_E
-Text Label 4450 3650 3    40   ~ 0
-DO_F
-Text Label 4550 3650 3    40   ~ 0
-DO_G
-Text Label 4650 3650 3    40   ~ 0
-DO_H
-Text Label 4650 1700 1    40   ~ 0
-DI_H
-Text Label 4550 1700 1    40   ~ 0
-DI_G
-Text Label 4450 1700 1    40   ~ 0
-DI_F
-Text Label 4350 1700 1    40   ~ 0
-DI_E
-Text Label 4250 1700 1    40   ~ 0
-DI_D
-Text Label 4150 1700 1    40   ~ 0
-DI_C
-Text Label 4050 1700 1    40   ~ 0
-DI_B
-Text Label 3950 1700 1    40   ~ 0
-DI_A
 $Sheet
 S 8000 850  2050 500 
 U 5117961B
@@ -2443,4 +1753,154 @@ Text Label 1550 5725 0    60   ~ 0
 GND
 Text Label 1550 5175 0    60   ~ 0
 5V
+$Comp
+L CONN_8X2 P3
+U 1 1 5355499C
+P 1350 2450
+F 0 "P3" H 1350 2900 60  0000 C CNN
+F 1 "Data_In" V 1350 2450 50  0000 C CNN
+F 2 "" H 1350 2450 60  0000 C CNN
+F 3 "" H 1350 2450 60  0000 C CNN
+	1    1350 2450
+	1    0    0    -1  
+$EndComp
+Text Label 1950 2100 2    40   ~ 0
+DI_H
+Text Label 750  2100 0    40   ~ 0
+DI_G
+Text Label 1950 2200 2    40   ~ 0
+DI_F
+Text Label 750  2200 0    40   ~ 0
+DI_E
+Text Label 1950 2300 2    40   ~ 0
+DI_D
+Text Label 750  2300 0    40   ~ 0
+DI_C
+Text Label 1950 2400 2    40   ~ 0
+DI_B
+Text Label 750  2400 0    40   ~ 0
+DI_A
+Wire Wire Line
+	1750 2100 1950 2100
+Wire Wire Line
+	1750 2200 1950 2200
+Wire Wire Line
+	1750 2300 1950 2300
+Wire Wire Line
+	1750 2400 1950 2400
+Wire Wire Line
+	950  2400 750  2400
+Wire Wire Line
+	950  2300 750  2300
+Wire Wire Line
+	950  2200 750  2200
+Wire Wire Line
+	950  2100 750  2100
+Wire Wire Line
+	750  2500 950  2500
+Text Label 750  2500 0    40   ~ 0
+5V
+Wire Wire Line
+	750  2600 950  2600
+Text Label 750  2600 0    40   ~ 0
+5V
+Wire Wire Line
+	1750 2500 1950 2500
+Text Label 1950 2500 2    40   ~ 0
+5V
+Wire Wire Line
+	1750 2600 1950 2600
+Text Label 1950 2600 2    40   ~ 0
+5V
+Wire Wire Line
+	750  2700 950  2700
+Text Label 750  2700 0    40   ~ 0
+GND
+Wire Wire Line
+	750  2800 950  2800
+Text Label 750  2800 0    40   ~ 0
+GND
+Wire Wire Line
+	1750 2700 1950 2700
+Text Label 1950 2700 2    40   ~ 0
+GND
+Wire Wire Line
+	1750 2800 1950 2800
+Text Label 1950 2800 2    40   ~ 0
+GND
+$Comp
+L CONN_8X2 P4
+U 1 1 53556B99
+P 5450 2450
+F 0 "P4" H 5450 2900 60  0000 C CNN
+F 1 "Data_Out" V 5450 2450 50  0000 C CNN
+F 2 "" H 5450 2450 60  0000 C CNN
+F 3 "" H 5450 2450 60  0000 C CNN
+	1    5450 2450
+	1    0    0    -1  
+$EndComp
+Text Label 6050 2100 2    40   ~ 0
+DO_H
+Text Label 4850 2100 0    40   ~ 0
+DO_G
+Text Label 6050 2200 2    40   ~ 0
+DO_F
+Text Label 4850 2200 0    40   ~ 0
+DO_E
+Text Label 6050 2300 2    40   ~ 0
+DO_D
+Text Label 4850 2300 0    40   ~ 0
+DO_C
+Text Label 6050 2400 2    40   ~ 0
+DO_B
+Text Label 4850 2400 0    40   ~ 0
+DO_A
+Wire Wire Line
+	5850 2100 6050 2100
+Wire Wire Line
+	5850 2200 6050 2200
+Wire Wire Line
+	5850 2300 6050 2300
+Wire Wire Line
+	5850 2400 6050 2400
+Wire Wire Line
+	5050 2400 4850 2400
+Wire Wire Line
+	5050 2300 4850 2300
+Wire Wire Line
+	5050 2200 4850 2200
+Wire Wire Line
+	5050 2100 4850 2100
+Wire Wire Line
+	4850 2500 5050 2500
+Text Label 4850 2500 0    40   ~ 0
+5V
+Wire Wire Line
+	4850 2600 5050 2600
+Text Label 4850 2600 0    40   ~ 0
+5V
+Wire Wire Line
+	5850 2500 6050 2500
+Text Label 6050 2500 2    40   ~ 0
+5V
+Wire Wire Line
+	5850 2600 6050 2600
+Text Label 6050 2600 2    40   ~ 0
+5V
+Wire Wire Line
+	4850 2700 5050 2700
+Text Label 4850 2700 0    40   ~ 0
+GND
+Wire Wire Line
+	4850 2800 5050 2800
+Text Label 4850 2800 0    40   ~ 0
+GND
+Wire Wire Line
+	5850 2700 6050 2700
+Text Label 6050 2700 2    40   ~ 0
+GND
+Wire Wire Line
+	5850 2800 6050 2800
+Text Label 6050 2800 2    40   ~ 0
+GND
 $EndSCHEMATC

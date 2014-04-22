@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Monday 21 April 2014 11:37:11 PM IST
+Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Tuesday 22 April 2014 10:54:53 PM IST
 
 BeginCmp
 TimeStamp = /511688A7/5118AB57;
@@ -130,14 +130,14 @@ BeginCmp
 TimeStamp = /5117DBB4;
 Reference = P1;
 ValeurCmp = PWR_W;
-IdModule  = TinyTiM_Lib:SIL-PWR;
+IdModule  = TinyTiM_Lib:Conn_x2_PTSM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5117DBCC;
 Reference = P2;
 ValeurCmp = PWR_E;
-IdModule  = TinyTiM_Lib:SIL-PWR;
+IdModule  = TinyTiM_Lib:Conn_x2_PTSM;
 EndCmp
 
 BeginCmp
@@ -225,20 +225,6 @@ IdModule  = TinyTiM_Lib:Screw;
 EndCmp
 
 BeginCmp
-TimeStamp = /511688A7/5118AB6E;
-Reference = S103;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
-TimeStamp = /511688A7/5118AB63;
-Reference = S104;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
 TimeStamp = /51179344/5118AB7B;
 Reference = S401;
 ValeurCmp = CONN_1;
@@ -248,20 +234,6 @@ EndCmp
 BeginCmp
 TimeStamp = /51179344/5118AB76;
 Reference = S402;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
-TimeStamp = /51179344/5118AB6F;
-Reference = S403;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
-TimeStamp = /51179344/5118AB65;
-Reference = S404;
 ValeurCmp = CONN_1;
 IdModule  = TinyTiM_Lib:Screw;
 EndCmp
@@ -281,20 +253,6 @@ IdModule  = TinyTiM_Lib:Screw;
 EndCmp
 
 BeginCmp
-TimeStamp = /51179413/5118AB6C;
-Reference = S503;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
-TimeStamp = /51179413/5118AB68;
-Reference = S504;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
 TimeStamp = /5117961B/5118AB78;
 Reference = S801;
 ValeurCmp = CONN_1;
@@ -304,20 +262,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5117961B/5118AB70;
 Reference = S802;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
-TimeStamp = /5117961B/5118AB69;
-Reference = S803;
-ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Lib:Screw;
-EndCmp
-
-BeginCmp
-TimeStamp = /5117961B/5118AB66;
-Reference = S804;
 ValeurCmp = CONN_1;
 IdModule  = TinyTiM_Lib:Screw;
 EndCmp

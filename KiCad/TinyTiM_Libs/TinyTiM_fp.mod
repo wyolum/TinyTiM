@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Monday 21 April 2014 11:35:52 PM IST
+PCBNEW-LibModule-V1  Tuesday 22 April 2014 10:53:35 PM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -8,6 +8,7 @@ CONN_S
 CONN_S2
 CONN_W
 CP_5x11mm
+Conn_x2_PTSM
 Header_8x2
 Header_ISP
 Logo-WL3
@@ -418,6 +419,55 @@ Of -0.05 0 0.1
 Ro 0 90 0
 $EndSHAPE3D
 $EndMODULE CP_5x11mm
+$MODULE Conn_x2_PTSM
+Po 0 0 0 15 5356A589 00000000 ~~
+Li Conn_x2_PTSM
+Sc 0
+AR 
+Op 0 0 0
+T0 0 11.8 1.016 1.016 0 0.2032 N V 21 N "Conn_x2_PTSM"
+T1 0 9.9 1.016 1.016 0 0.2032 N V 21 N "VAL**"
+DS 3.2 0 2.2 0 0.254 21
+DS -3.2 0 -2.2 0 0.254 21
+DS -3.2 1.7 -3.2 3.4 0.254 21
+DS -3.2 3.4 -5.3 3.4 0.254 21
+DS -5.3 3.4 -5.3 10.8 0.254 21
+DS -5.3 10.8 0 10.8 0.254 21
+DS 0 10.8 5.3 10.8 0.254 21
+DS 5.3 10.8 5.3 3.4 0.254 21
+DS 5.3 3.4 3.2 3.4 0.254 21
+DS 3.2 3.4 3.2 1.8 0.254 21
+DS -3.2 0 -3.2 1.7 0.254 21
+DS 3.2 0 3.2 1.7 0.254 21
+$PAD
+Sh "1" R 1.4 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 0
+$EndPAD
+$PAD
+Sh "2" R 1.4 3.4 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.25 0
+$EndPAD
+$PAD
+Sh "3" R 2.3 5.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.85 6.6
+$EndPAD
+$PAD
+Sh "4" R 2.3 5.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.85 6.6
+$EndPAD
+$EndMODULE Conn_x2_PTSM
 $MODULE Header_8x2
 Po 0 0 0 15 53555DD5 00000000 ~~
 Li Header_8x2

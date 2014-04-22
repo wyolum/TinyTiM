@@ -198,32 +198,8 @@ F 3 "" H 5500 6650 60  0001 C CNN
 	1    5500 6650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L CONN_1 S403
-U 1 1 5118AB6F
-P 5700 6650
-F 0 "S403" V 5780 6650 40  0000 L CNN
-F 1 "CONN_1" H 5700 6705 30  0001 C CNN
-F 2 "TinyTiM_Lib:Screw" H 5700 6805 30  0001 C CNN
-F 3 "" H 5700 6650 60  0001 C CNN
-	1    5700 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 S404
-U 1 1 5118AB65
-P 5900 6650
-F 0 "S404" V 5980 6650 40  0000 L CNN
-F 1 "CONN_1" H 5900 6705 30  0001 C CNN
-F 2 "TinyTiM_Lib:Screw" H 5900 6805 30  0001 C CNN
-F 3 "" H 5900 6650 60  0001 C CNN
-	1    5900 6650
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 5300 6800
 NoConn ~ 5500 6800
-NoConn ~ 5700 6800
-NoConn ~ 5900 6800
 Text Notes 5200 7000 0    60   ~ 0
 Mounting Screws
 Text Label 1250 6350 0    60   ~ 0

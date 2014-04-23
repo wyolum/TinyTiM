@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tuesday 22 April 2014 10:53:35 PM IST
+PCBNEW-LibModule-V1  Wednesday 23 April 2014 02:01:43 PM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -67652,12 +67652,12 @@ Ro 0 0 90
 $EndSHAPE3D
 $EndMODULE PCB
 $MODULE RGB_WS2811
-Po 0 0 0 15 50E854E3 00000000 ~~
+Po 0 0 0 15 53577A6B 00000000 ~~
 Li RGB_WS2811
 Sc 0
-AR /50E7FA74
+AR /511688A7/51189846
 Op 0 0 0
-T0 -1.5875 4.953 0.889 0.889 900 0.127 N V 21 N "U15"
+T0 -1.524 5.334 0.889 0.889 900 0.127 N V 21 N "U101"
 T1 0 0 0.762 0.762 0 0.127 N I 21 N "RGB_WS2811"
 DS -2.3495 2.8575 -2.3495 2.9845 0.127 21
 DS -2.4765 2.794 -2.4765 3.048 0.127 21
@@ -67680,7 +67680,7 @@ $PAD
 Sh "1" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "/Row_A/A_02"
 Po -1.5875 2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67688,7 +67688,7 @@ $PAD
 Sh "2" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "/Row_A/DI_A"
 Po 0 2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67696,7 +67696,7 @@ $PAD
 Sh "3" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "5V"
 Po 1.5875 2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67712,7 +67712,7 @@ $PAD
 Sh "5" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "5V"
 Po 0 -2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67720,12 +67720,12 @@ $PAD
 Sh "6" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "GND"
 Po -1.5875 -2.4765
 .LocalClearance 0.127
 $EndPAD
 $SHAPE3D
-Na "RowGB_Libs/3D_Modules/led_0805.wrl"
+Na "TinyTiM_Libs/3D_Modules/led_0805.wrl"
 Sc 1 1.5 1
 Of 0 0 0
 Ro 0 0 0

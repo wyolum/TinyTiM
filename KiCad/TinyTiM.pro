@@ -1,6 +1,6 @@
-update=Monday 21 April 2014 08:52:02 PM IST
+update=Wednesday 23 April 2014 02:56:49 PM IST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -31,8 +31,6 @@ LastNetListRead=TiM.net
 [pcbnew/libraries]
 LibDir=
 LibName1=RowGB_Libs/RowGB_fp
-[general]
-version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -47,3 +45,5 @@ LabSize=40
 [eeschema/libraries]
 LibName1=TinyTiM_Libs/TinyTiM_sym
 LibName2=power
+[general]
+version=1

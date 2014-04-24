@@ -1,6 +1,6 @@
-update=Wednesday 23 April 2014 02:56:49 PM IST
+update=Thursday 24 April 2014 11:28:59 AM IST
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetITyp=0
@@ -11,26 +11,6 @@ LibDir=
 NetType=0
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PadDrlX=0
-PadDimH=800
-PadDimV=400
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=100
-LastNetListRead=TiM.net
-[pcbnew/libraries]
-LibDir=
-LibName1=RowGB_Libs/RowGB_fp
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -47,3 +27,25 @@ LibName1=TinyTiM_Libs/TinyTiM_sym
 LibName2=power
 [general]
 version=1
+[pcbnew]
+version=1
+LastNetListRead=TiM.net
+UseCmpFile=1
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    2.300000"
+PadSizeV="    5.600000"
+PcbTextSizeV="    1.016000"
+PcbTextSizeH="    1.016000"
+PcbTextThickness="    0.203200"
+ModuleTextSizeV="    1.016000"
+ModuleTextSizeH="    1.016000"
+ModuleTextSizeThickness="    0.203200"
+SolderMaskClearance="    0.254000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.254000"
+BoardOutlineThickness="    0.254000"
+ModuleOutlineThickness="    0.254000"
+[pcbnew/libraries]
+LibDir=
+LibName1=TinyTiM_Libs/TinyTiM_fp

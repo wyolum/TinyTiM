@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wednesday 23 April 2014 02:01:43 PM IST
+PCBNEW-LibModule-V1  Thursday 24 April 2014 11:54:41 AM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -24,6 +24,7 @@ SO8N
 Screw
 ShortLink
 ShortLink2
+TinyTiM_Lib:Header_8x2
 c_0805
 c_2917
 pad
@@ -68171,6 +68172,154 @@ Of 0 0 0
 Ro 0 0 90
 $EndSHAPE3D
 $EndMODULE ShortLink2
+$MODULE TinyTiM_Lib:Header_8x2
+Po 0 0 0 15 53555DD5 00000000 ~~
+Li TinyTiM_Lib:Header_8x2
+Cd Header 8x2
+Kw CONN DEV
+Sc 0
+AR /53556B99
+Op 0 0 0
+T0 0 13.3 1 1 0 0.2 N V 21 N "P4"
+T1 0 11.6 1 1 0 0.2 N V 21 N "Data_Out"
+T2 -1.2 -11.9 1 1 0 0.2 N V 21 N "1"
+DS -2.4 -11.2 -2.6 -11.2 0.254 21
+DS -2.4 -11.4 -3 -11.4 0.254 21
+DS -2.4 -11.6 -3.4 -11.6 0.254 21
+DS -2.4 -12.4 -2.7 -12.4 0.254 21
+DS -3.1 -12.2 -2.4 -12.2 0.254 21
+DS -2.4 -12 -3.4 -12 0.254 21
+DS -3.7 -11.8 -2.4 -11.8 0.254 21
+DS -4 -11.8 -2.4 -11 0.254 21
+DS -2.4 -11 -2.4 -12.6 0.254 21
+DS -2.4 -12.6 -4 -11.8 0.254 21
+DS -4.5 14.2 -4.5 9.8 0.254 21
+DS 0 14.2 4.5 14.2 0.254 21
+DS 4.5 14.2 4.5 9.8 0.254 21
+DS 0 14.2 -4.5 14.2 0.254 21
+DS 0 -14.2 4.5 -14.2 0.254 21
+DS 4.5 -14.2 4.5 -9.8 0.254 21
+DS 0 -14.2 -4.5 -14.2 0.254 21
+DS -4.5 -14.2 -4.5 -9.8 0.254 21
+$PAD
+Sh "2" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 8 "/Row_H/DO_H"
+Po 3.5 -8.89
+$EndPAD
+$PAD
+Sh "1" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 7 "/Row_G/DO_G"
+Po -3.5 -8.89
+$EndPAD
+$PAD
+Sh "3" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 5 "/Row_E/DO_E"
+Po -3.5 -6.35
+$EndPAD
+$PAD
+Sh "4" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 6 "/Row_F/DO_F"
+Po 3.5 -6.35
+$EndPAD
+$PAD
+Sh "5" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 3 "/Row_C/DO_C"
+Po -3.5 -3.81
+$EndPAD
+$PAD
+Sh "6" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 4 "/Row_D/DO_D"
+Po 3.5 -3.81
+$EndPAD
+$PAD
+Sh "7" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 1 "/Row_A/DO_A"
+Po -3.5 -1.27
+$EndPAD
+$PAD
+Sh "8" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 2 "/Row_B/DO_B"
+Po 3.5 -1.27
+$EndPAD
+$PAD
+Sh "9" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 9 "5V"
+Po -3.5 1.27
+$EndPAD
+$PAD
+Sh "10" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 9 "5V"
+Po 3.5 1.27
+$EndPAD
+$PAD
+Sh "11" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 9 "5V"
+Po -3.5 3.81
+$EndPAD
+$PAD
+Sh "12" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 9 "5V"
+Po 3.5 3.81
+$EndPAD
+$PAD
+Sh "13" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 10 "GND"
+Po -3.5 6.35
+$EndPAD
+$PAD
+Sh "14" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 10 "GND"
+Po 3.5 6.35
+$EndPAD
+$PAD
+Sh "15" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 10 "GND"
+Po -3.5 8.89
+$EndPAD
+$PAD
+Sh "16" R 5 0.9 0 0 0
+Dr 0 0 0
+At SMD N 00A88000
+Ne 10 "GND"
+Po 3.5 8.89
+$EndPAD
+$SHAPE3D
+Na "TinyTiM_Libs/3D_Modules/Female_Header_2x8.wrl"
+Sc 0.5 0.5 0.5
+Of 0 0 0
+Ro -90 0 90
+$EndSHAPE3D
+$EndMODULE TinyTiM_Lib:Header_8x2
 $MODULE c_0805
 Po 0 0 0 15 511DEEE3 00000000 ~~
 Li c_0805

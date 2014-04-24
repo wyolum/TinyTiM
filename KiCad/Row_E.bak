@@ -2,13 +2,13 @@ EESchema Schematic File Version 2
 LIBS:TinyTiM_sym
 LIBS:power
 LIBS:TinyTiM-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title "TiM - The Intelligent Matrix"
-Date "16 feb 2013"
+Date "24 apr 2014"
 Rev ""
 Comp "WyoLum"
 Comment1 "www.wyolum.com"

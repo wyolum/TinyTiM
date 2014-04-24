@@ -1,6 +1,6 @@
-update=Thursday 24 April 2014 11:28:59 AM IST
+update=Thursday 24 April 2014 01:42:38 PM IST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetITyp=0
@@ -25,8 +25,6 @@ LabSize=40
 [eeschema/libraries]
 LibName1=TinyTiM_Libs/TinyTiM_sym
 LibName2=power
-[general]
-version=1
 [pcbnew]
 version=1
 LastNetListRead=TiM.net
@@ -49,3 +47,5 @@ ModuleOutlineThickness="    0.254000"
 [pcbnew/libraries]
 LibDir=
 LibName1=TinyTiM_Libs/TinyTiM_fp
+[general]
+version=1

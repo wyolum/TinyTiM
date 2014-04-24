@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Tuesday 22 April 2014 10:54:53 PM IST
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thursday 24 April 2014 01:04:29 PM IST
 
 BeginCmp
 TimeStamp = /511688A7/5118AB57;
@@ -155,6 +155,20 @@ IdModule  = TinyTiM_Lib:Header_8x2;
 EndCmp
 
 BeginCmp
+TimeStamp = /5358CE5E;
+Reference = P5;
+ValeurCmp = Data_In_Serial;
+IdModule  = Conn_x3_PTSM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5358D167;
+Reference = P6;
+ValeurCmp = Data_Out_Serial;
+IdModule  = Conn_x3_PTSM;
+EndCmp
+
+BeginCmp
 TimeStamp = /5118A74D;
 Reference = P125;
 ValeurCmp = G>H;
@@ -225,6 +239,20 @@ IdModule  = TinyTiM_Lib:Screw;
 EndCmp
 
 BeginCmp
+TimeStamp = /511688A7/5356BD57;
+Reference = S103;
+ValeurCmp = CONN_1;
+IdModule  = TinyTiM_Lib:Screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /511688A7/5356BD5D;
+Reference = S104;
+ValeurCmp = CONN_1;
+IdModule  = TinyTiM_Lib:Screw;
+EndCmp
+
+BeginCmp
 TimeStamp = /51179344/5118AB7B;
 Reference = S401;
 ValeurCmp = CONN_1;
@@ -262,6 +290,20 @@ EndCmp
 BeginCmp
 TimeStamp = /5117961B/5118AB70;
 Reference = S802;
+ValeurCmp = CONN_1;
+IdModule  = TinyTiM_Lib:Screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /5117961B/5356BE2F;
+Reference = S803;
+ValeurCmp = CONN_1;
+IdModule  = TinyTiM_Lib:Screw;
+EndCmp
+
+BeginCmp
+TimeStamp = /5117961B/5356BE35;
+Reference = S804;
 ValeurCmp = CONN_1;
 IdModule  = TinyTiM_Lib:Screw;
 EndCmp

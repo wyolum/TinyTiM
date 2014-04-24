@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thursday 24 April 2014 01:04:17 PM IST
+PCBNEW-LibModule-V1  Thursday 24 April 2014 06:18:21 PM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -25,7 +25,7 @@ SO8N
 Screw
 ShortLink
 ShortLink2
-TinyTiM_Lib:Header_8x2
+TinyTiM_Lib%3aHeader_8x2
 c_0805
 c_2917
 pad
@@ -471,13 +471,13 @@ Po 3.85 6.6
 $EndPAD
 $EndMODULE Conn_x2_PTSM
 $MODULE Conn_x3_PTSM
-Po 0 0 0 15 5358BE3E 00000000 ~~
+Po 0 0 0 15 5359080B 00000000 ~~
 Li Conn_x3_PTSM
 Sc 0
-AR 
+AR /5358D167
 Op 0 0 0
-T0 0 11.8 1.016 1.016 0 0.2032 N V 21 N "Conn_x2_PTSM"
-T1 0 9.9 1.016 1.016 0 0.2032 N V 21 N "VAL**"
+T0 0 -5.969 1.524 1.524 0 0.254 N V 21 N "P6"
+T1 0 -8.89 1.524 1.524 0 0.254 N V 21 N "Data_Out_Serial"
 DS 5.1 0 3.5 0 0.254 21
 DS -5.1 0 -3.5 0 0.254 21
 DS -5.1 3.4 -6.7 3.4 0.254 21
@@ -488,14 +488,14 @@ DS 6.7 10.8 -6.7 10.8 0.254 21
 DS -6.7 3.4 -6.7 10.8 0.254 21
 DS 6.7 10.8 6.7 3.4 0.254 21
 $PAD
-Sh "1" R 1.4 3.4 0 0 0
+Sh "2" R 1.4 3.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "2" R 1.4 3.4 0 0 0
+Sh "1" R 1.4 3.4 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -67735,7 +67735,7 @@ $PAD
 Sh "1" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 1 "/Row_A/A_02"
+Ne 0 ""
 Po -1.5875 2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67743,7 +67743,7 @@ $PAD
 Sh "2" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 2 "/Row_A/DI_A"
+Ne 0 ""
 Po 0 2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67751,7 +67751,7 @@ $PAD
 Sh "3" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 3 "5V"
+Ne 0 ""
 Po 1.5875 2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67767,7 +67767,7 @@ $PAD
 Sh "5" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 3 "5V"
+Ne 0 ""
 Po 0 -2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -67775,7 +67775,7 @@ $PAD
 Sh "6" R 1.016 1.524 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 4 "GND"
+Ne 0 ""
 Po -1.5875 -2.4765
 .LocalClearance 0.127
 $EndPAD
@@ -68226,9 +68226,9 @@ Of 0 0 0
 Ro 0 0 90
 $EndSHAPE3D
 $EndMODULE ShortLink2
-$MODULE TinyTiM_Lib:Header_8x2
+$MODULE TinyTiM_Lib%3aHeader_8x2
 Po 0 0 0 15 53555DD5 00000000 ~~
-Li TinyTiM_Lib:Header_8x2
+Li TinyTiM_Lib%3aHeader_8x2
 Cd Header 8x2
 Kw CONN DEV
 Sc 0
@@ -68259,112 +68259,112 @@ $PAD
 Sh "2" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 8 "/Row_H/DO_H"
+Ne 0 ""
 Po 3.5 -8.89
 $EndPAD
 $PAD
 Sh "1" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 7 "/Row_G/DO_G"
+Ne 0 ""
 Po -3.5 -8.89
 $EndPAD
 $PAD
 Sh "3" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 5 "/Row_E/DO_E"
+Ne 0 ""
 Po -3.5 -6.35
 $EndPAD
 $PAD
 Sh "4" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 6 "/Row_F/DO_F"
+Ne 0 ""
 Po 3.5 -6.35
 $EndPAD
 $PAD
 Sh "5" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 3 "/Row_C/DO_C"
+Ne 0 ""
 Po -3.5 -3.81
 $EndPAD
 $PAD
 Sh "6" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 4 "/Row_D/DO_D"
+Ne 0 ""
 Po 3.5 -3.81
 $EndPAD
 $PAD
 Sh "7" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 1 "/Row_A/DO_A"
+Ne 0 ""
 Po -3.5 -1.27
 $EndPAD
 $PAD
 Sh "8" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 2 "/Row_B/DO_B"
+Ne 0 ""
 Po 3.5 -1.27
 $EndPAD
 $PAD
 Sh "9" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 9 "5V"
+Ne 0 ""
 Po -3.5 1.27
 $EndPAD
 $PAD
 Sh "10" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 9 "5V"
+Ne 0 ""
 Po 3.5 1.27
 $EndPAD
 $PAD
 Sh "11" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 9 "5V"
+Ne 0 ""
 Po -3.5 3.81
 $EndPAD
 $PAD
 Sh "12" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 9 "5V"
+Ne 0 ""
 Po 3.5 3.81
 $EndPAD
 $PAD
 Sh "13" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 10 "GND"
+Ne 0 ""
 Po -3.5 6.35
 $EndPAD
 $PAD
 Sh "14" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 10 "GND"
+Ne 0 ""
 Po 3.5 6.35
 $EndPAD
 $PAD
 Sh "15" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 10 "GND"
+Ne 0 ""
 Po -3.5 8.89
 $EndPAD
 $PAD
 Sh "16" R 5 0.9 0 0 0
 Dr 0 0 0
 At SMD N 00A88000
-Ne 10 "GND"
+Ne 0 ""
 Po 3.5 8.89
 $EndPAD
 $SHAPE3D
@@ -68373,7 +68373,7 @@ Sc 0.5 0.5 0.5
 Of 0 0 0
 Ro -90 0 90
 $EndSHAPE3D
-$EndMODULE TinyTiM_Lib:Header_8x2
+$EndMODULE TinyTiM_Lib%3aHeader_8x2
 $MODULE c_0805
 Po 0 0 0 15 511DEEE3 00000000 ~~
 Li c_0805

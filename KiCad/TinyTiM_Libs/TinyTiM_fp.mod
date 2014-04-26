@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thursday 24 April 2014 06:18:21 PM IST
+PCBNEW-LibModule-V1  Saturday 26 April 2014 10:04:05 AM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -524,16 +524,16 @@ Po 2.5 0
 $EndPAD
 $EndMODULE Conn_x3_PTSM
 $MODULE Header_8x2
-Po 0 0 0 15 53555DD5 00000000 ~~
+Po 0 0 0 15 5359071D 00000000 ~~
 Li Header_8x2
 Cd Header 8x2
 Kw CONN DEV
 Sc 0
-AR /5118A723
+AR /5355499C
 Op 0 0 0
-T0 0 13.3 1 1 0 0.2 N V 21 N "P?"
-T1 0 11.6 1 1 0 0.2 N V 21 N "Header_8x2"
-T2 -1.2 -11.9 1 1 0 0.2 N V 21 N "1"
+T0 -10.541 0 1.524 1.524 2700 0.254 N V 21 N "P3"
+T1 -12.954 0 1.524 1.524 2700 0.254 N V 21 N "Data_In"
+T2 -5.715 -11.811 1.524 1.524 2700 0.254 N V 21 N "1"
 DS -2.4 -11.2 -2.6 -11.2 0.254 21
 DS -2.4 -11.4 -3 -11.4 0.254 21
 DS -2.4 -11.6 -3.4 -11.6 0.254 21
@@ -665,10 +665,16 @@ Ne 0 ""
 Po 3.5 8.89
 $EndPAD
 $SHAPE3D
-Na "RowGB_Libs/3D_Modules/pin_strip_2-90_smd.wrl"
-Sc 1 1 1
+Na "TinyTiM_Libs/3D_Modules/Male_Header_2x8.wrl"
+Sc 0.394 0.394 0.394
 Of 0 0 0
-Ro 0 0 90
+Ro -90 0 90
+$EndSHAPE3D
+$SHAPE3D
+Na "3D_Modules/Male_Header_2x8.wrl"
+Sc 0.394 0.394 0.394
+Of 0 0 0
+Ro -90 0 90
 $EndSHAPE3D
 $EndMODULE Header_8x2
 $MODULE Header_ISP

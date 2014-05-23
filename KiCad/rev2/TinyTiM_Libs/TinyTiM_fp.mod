@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thursday 22 May 2014 06:19:07 PM IST
+PCBNEW-LibModule-V1  Friday 23 May 2014 05:12:47 PM IST
 # encoding utf-8
 Units mm
 $INDEX
@@ -472,13 +472,13 @@ Po 3.85 6.6
 $EndPAD
 $EndMODULE Conn_x2_PTSM
 $MODULE Conn_x3_PTSM
-Po 0 0 0 15 5359080B 00000000 ~~
+Po 0 0 0 15 535A6B0D 00000000 ~~
 Li Conn_x3_PTSM
 Sc 0
-AR /5358D167
+AR /5358CE5E
 Op 0 0 0
-T0 0 -5.969 1.524 1.524 0 0.254 N V 21 N "P6"
-T1 0 -8.89 1.524 1.524 0 0.254 N V 21 N "Data_Out_Serial"
+T0 0 15.494 1.524 1.524 0 0.254 N V 21 N "P5"
+T1 0 12.7 1.524 1.524 0 0.254 N V 21 N "Data_In_Serial"
 DS 5.1 0 3.5 0 0.254 21
 DS -5.1 0 -3.5 0 0.254 21
 DS -5.1 3.4 -6.7 3.4 0.254 21
@@ -523,6 +523,18 @@ At SMD N 00888000
 Ne 0 ""
 Po 2.5 0
 $EndPAD
+$SHAPE3D
+Na "TinyTiM_3D/1771033.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$SHAPE3D
+Na "/home/anool/projects-git/TinyTiM/KiCad/rev2/TinyTiM_3D/1771033.wrl"
+Sc 2.54 2.54 2.54
+Of 0 -0.19 0.11
+Ro -90 0 -90
+$EndSHAPE3D
 $EndMODULE Conn_x3_PTSM
 $MODULE Header_8x2
 Po 0 0 0 15 5359071D 00000000 ~~
@@ -666,13 +678,13 @@ Ne 0 ""
 Po 3.5 8.89
 $EndPAD
 $SHAPE3D
-Na "TinyTiM_Libs/3D_Modules/Male_Header_2x8.wrl"
+Na "TinyTiM_3D/Male_Header_2x8.wrl"
 Sc 0.394 0.394 0.394
 Of 0 0 0
 Ro -90 0 90
 $EndSHAPE3D
 $SHAPE3D
-Na "3D_Modules/Male_Header_2x8.wrl"
+Na "/home/anool/projects-git/TinyTiM/KiCad/rev2/TinyTiM_3D/Male_Header_2x8.wrl"
 Sc 0.394 0.394 0.394
 Of 0 0 0
 Ro -90 0 90
@@ -67856,6 +67868,12 @@ Sc 1 1.5 1
 Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
+$SHAPE3D
+Na "/home/anool/projects-git/TinyTiM/KiCad/rev2/TinyTiM_3D/led_0805.wrl"
+Sc 1 1.5 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
 $EndMODULE RGB_WS2811B
 $MODULE SIL-2
 Po 0 0 0 15 00200000 00000000 ~~
@@ -68247,15 +68265,15 @@ Po 1.27 0
 $EndPAD
 $EndMODULE ShortLink
 $MODULE ShortLink2
-Po 0 0 0 15 511F4B01 00000000 ~~
+Po 0 0 0 15 537F1ABC 00000000 ~~
 Li ShortLink2
 Cd Connecteurs 2 pins
 Kw CONN DEV
 Sc 0
-AR /5118A707
+AR /5118A74D
 Op 0 0 0
-T0 -10.16 0 0.762 0.762 0 0.127 N V 21 N "P131"
-T1 -6.985 0 0.762 0.762 0 0.127 N V 21 N "A>B"
+T0 7.112 0 0.762 0.762 0 0.127 N V 21 N "P125"
+T1 -6.985 0 0.762 0.762 0 0.127 N V 21 N "G>H"
 DS 2.6035 -1.27 -2.6035 -1.27 0.254 21
 DS -2.6035 1.27 2.6035 1.27 0.254 21
 DS 2.6035 -1.27 2.6035 1.27 0.254 21
@@ -68266,7 +68284,6 @@ Dr 0 0 0
 At SMD N 00A88000
 Ne 0 ""
 Po -1.27 0
-.LocalClearance 0.127
 $EndPAD
 $PAD
 Sh "2" T 2.032 1.016 0.508 0 0
@@ -68274,7 +68291,6 @@ Dr 0 0 0
 At SMD N 00A88000
 Ne 0 ""
 Po 1.27 0
-.LocalClearance 0.127
 $EndPAD
 $PAD
 Sh "2" R 2.032 1.016 0 0 0
@@ -68291,7 +68307,13 @@ Ne 0 ""
 Po -4.064 0
 $EndPAD
 $SHAPE3D
-Na "RowGB_Libs/3D_Modules/pin_strip_2-90_smd.wrl"
+Na "TinyTiM_3D/pin_strip_2-90_smd.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 90
+$EndSHAPE3D
+$SHAPE3D
+Na "/home/anool/projects-git/TinyTiM/KiCad/rev2/TinyTiM_3D/pin_strip_2-90_smd.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 90
@@ -68446,15 +68468,15 @@ Ro -90 0 90
 $EndSHAPE3D
 $EndMODULE TinyTiM_Lib%3aHeader_8x2
 $MODULE c_0805
-Po 0 0 0 15 511DEEE3 00000000 ~~
+Po 0 0 0 15 537F1A9F 00000000 ~~
 Li c_0805
 Cd SMT capacitor, 0805
 Sc 0
-AR /50E7E7FE
+AR /5117961B/51168961
 Op 0 0 0
 At SMD
-T0 3.2385 0.635 0.762 0.762 0 0.1016 N V 21 N "C10"
-T1 3.556 -0.4445 0.762 0.762 0 0.1016 N V 21 N "100n"
+T0 3.7592 0 0.762 0.762 2700 0.1016 N V 21 N "C801"
+T1 2.6416 0 0.762 0.762 2700 0.1016 N V 21 N "100n"
 DS 1.905 1.0795 0.127 1.0795 0.1524 21
 DS 1.905 -1.0795 0.127 -1.0795 0.1524 21
 DS -1.016 1.0795 -1.905 1.0795 0.1524 21
@@ -68477,7 +68499,13 @@ Ne 0 ""
 Po -1.016 0
 $EndPAD
 $SHAPE3D
-Na "RowGB_Libs/3D_Modules/c_0805.wrl"
+Na "TinyTiM_3D/c_0805.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$SHAPE3D
+Na "/home/anool/projects-git/TinyTiM/KiCad/rev2/TinyTiM_3D/c_0805.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -68532,7 +68560,13 @@ Ne 0 ""
 Po -4.064 0
 $EndPAD
 $SHAPE3D
-Na "RowGB_Libs/3D_Modules/chip_cms_pol.wrl"
+Na "TinyTiM_3D/chip_cms_pol.wrl"
+Sc 0.4 0.5 0.5
+Of 0 0 0
+Ro 0 0 180
+$EndSHAPE3D
+$SHAPE3D
+Na "/home/anool/projects-git/TinyTiM/KiCad/rev2/TinyTiM_3D/chip_cms_pol.wrl"
 Sc 0.4 0.5 0.5
 Of 0 0 0
 Ro 0 0 180

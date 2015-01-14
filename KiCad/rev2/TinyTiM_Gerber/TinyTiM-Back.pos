@@ -1,0 +1,24 @@
+### Module positions - created on Wed Jan 14 18:52:02 2015 ###
+### Printed by Pcbnew version kicad (2014-12-11 BZR 5320)-product
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C101     100n             c_0805              4.0000    -5.5000      90.0    Back
+C117     47u,8V           c_2917              2.8000    -5.5000       0.0    Back
+C201     100n             c_0805              4.0000    -4.9000      90.0    Back
+C217     47u,8V           c_2917              2.8000    -4.9000       0.0    Back
+C301     100n             c_0805              4.0000    -4.3000      90.0    Back
+C317     47u,8V           c_2917              2.8000    -4.3000       0.0    Back
+C401     100n             c_0805              4.0000    -3.7000      90.0    Back
+C417     47u,8V           c_2917              2.8000    -3.7000       0.0    Back
+C501     100n             c_0805              4.0000    -3.1000      90.0    Back
+C517     47u,8V           c_2917              2.7995    -3.1000       0.0    Back
+C601     100n             c_0805              4.0000    -2.5000      90.0    Back
+C617     47u,8V           c_2917              2.8000    -2.5000       0.0    Back
+C701     100n             c_0805              4.0000    -1.9000      90.0    Back
+C717     47u,8V           c_2917              2.8000    -1.9000       0.0    Back
+C801     100n             c_0805              4.0000    -1.3000      90.0    Back
+C817     47u,8V           c_2917              2.8000    -1.3000       0.0    Back
+P3       Data_In          Header_8x2          1.7500    -2.8200     180.0    Back
+P4       Data_Out         Header_8x2          5.0500    -3.9800     180.0    Back
+## End

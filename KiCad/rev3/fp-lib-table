@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name TinyTiM_Lib)(type Legacy)(uri $KIPRJMOD/TinyTiM_Libs/TinyTiM_fp.mod)(options "")(descr ""))
+  (lib (name TinyTiM_Libs)(type KiCad)(uri "$(KIPRJMOD)/TinyTiM_Libs.pretty")(options "")(descr ""))
+)

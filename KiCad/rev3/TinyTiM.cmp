@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503311001+5559~22~ubuntu14.10.1-product   date = Sunday 05 April 2015 05:08:24 PM IST
+Cmp-Mod V01 Created by Cvpcb 0.201504161001+5603~22~ubuntu14.10.1-product   date = Fri Apr 17 17:48:03 2015
 
 BeginCmp
 TimeStamp = /511688A7/5118AB57;
@@ -221,14 +221,14 @@ BeginCmp
 TimeStamp = /511688A7/5118AB77;
 Reference = S101;
 ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Libs:Screw_NPTH;
+IdModule  = TinyTiM_Libs:Screw_SSide;
 EndCmp
 
 BeginCmp
 TimeStamp = /511688A7/5118AB75;
 Reference = S102;
 ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Libs:Screw_NPTH;
+IdModule  = TinyTiM_Libs:Screw_SSide;
 EndCmp
 
 BeginCmp
@@ -277,14 +277,14 @@ BeginCmp
 TimeStamp = /5117961B/5118AB78;
 Reference = S801;
 ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Libs:Screw_NPTH;
+IdModule  = TinyTiM_Libs:Screw;
 EndCmp
 
 BeginCmp
 TimeStamp = /5117961B/5118AB70;
 Reference = S802;
 ValeurCmp = CONN_1;
-IdModule  = TinyTiM_Libs:Screw_NPTH;
+IdModule  = TinyTiM_Libs:Screw;
 EndCmp
 
 BeginCmp
@@ -299,6 +299,20 @@ TimeStamp = /5117961B/5356BE35;
 Reference = S804;
 ValeurCmp = CONN_1;
 IdModule  = TinyTiM_Libs:Screw_NPTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5117961B/55311DB5;
+Reference = S805;
+ValeurCmp = CONN_1;
+IdModule  = TinyTiM_Libs:Screw_SSide;
+EndCmp
+
+BeginCmp
+TimeStamp = /5117961B/55311D21;
+Reference = S806;
+ValeurCmp = CONN_1;
+IdModule  = TinyTiM_Libs:Screw_SSide;
 EndCmp
 
 BeginCmp

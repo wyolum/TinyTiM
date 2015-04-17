@@ -683,7 +683,7 @@ D7 EB F5 72 B9 9C CF E7 52 CA 38 8E 8F C7 63 59 96 69 9A EE F7 FB B2 2C F3 3C CF
 10 2C 20 86 60 01 31 04 0B 88 21 58 40 0C C1 02 62 08 16 10 43 B0 80 18 82 05 C4 10 2C 20 86 60 
 01 31 04 0B 88 21 58 40 0C C1 02 62 08 16 10 43 B0 80 18 82 05 C4 10 2C 20 86 60 01 31 04 0B 88 
 21 58 40 0C C1 02 62 08 16 10 43 B0 80 18 82 05 C4 10 2C 20 86 60 01 31 04 0B 88 21 58 40 0C C1 
-02 62 7C 03 3D 79 5E 0E 30 13 47 E7 00 00 00 00 49 45 4E 44 AE 42 60 82 D0 
+02 62 7C 03 3D 79 5E 0E 30 13 47 E7 00 00 00 00 49 45 4E 44 AE 42 60 82 01 
 EndData
 $EndBitmap
 $Bitmap
@@ -1184,7 +1184,7 @@ AB AA AA 9E 7A EA A9 AF 7F FD EB 96 92 F3 65 EC E2 3F 1B 3E F1 7C 00 00 B3 D9 FC
 89 7F F8 87 7F 50 B7 A1 2F 08 AD 56 7B E8 D0 A1 6F 7C E3 1B 0F 3E F8 E0 96 03 00 EF E2 3F 1B 3E 
 C1 ED 35 72 E0 F7 FB FF F1 1F FF F1 9F FF F9 9F C7 C7 C7 73 1A 9F 2B 70 38 1C FB F6 ED 3B 79 F2 
 E4 23 8F 3C 52 B0 F1 D9 2E 76 F1 FF 03 17 ED 19 47 28 92 59 FB 00 00 00 00 49 45 4E 44 AE 42 60 
-82 51 
+82 3D 
 EndData
 $EndBitmap
 Wire Wire Line
@@ -1911,8 +1911,8 @@ Text Label 4850 1650 0    40   ~ 0
 DO_H
 Wire Wire Line
 	4850 1650 5100 1650
-Text Notes 3625 7525 0    50   ~ 10
-CHANGES:\nReplaced 2 pin PWR IN connectors P1 , P2 \nwith 3 pin SERIAL_DATA_IN connectors\n\nThis allows shorter wiring when boards are stacked up \nas 2.5D Cube or 3D (transparent PCB) cube\n\nSerial Shorting Links are permanently linked for Serial Mode.\nCut the links for Parallel Mode
+Text Notes 3625 6775 0    50   ~ 10
+CHANGES:\nReplaced 2 pin PWR IN connectors P1 , P2 \nwith 3 pin SERIAL_DATA_IN connectors\n\nThis allows shorter wiring when boards are stacked up \nas 2.5D Cube or 3D (transparent PCB) cube\n\nSerial Shorting Links are permanently linked for Serial Mode.\nCut the links for Parallel Mode\n\nUse screw holes for electrical connections (Serial)\nS101 = Data_In TOP Layer and Data_Out on BOT layer\nS102 = Data_In BOT Layer and Data_Out on TOP layer\nS801 = +5V on TOP and BOT Layers\nS802 = GND on TOP and BOT Layers
 $Comp
 L CONN_3 P1
 U 1 1 55214A46

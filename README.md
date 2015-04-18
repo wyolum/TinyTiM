@@ -10,3 +10,8 @@ to view 3D render correctly, create a sym_link as follows :
 
 sudo ln -s /home/USER_NAME/projects-git/TinyTiM/KiCad/TinyTiM_3D /usr/share/kicad/modules/packages3d
 
+License
+-------
+[CERN Open Hardware Licence v1.2 ]
+
+[CERN Open Hardware Licence v1.2 ]:http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt

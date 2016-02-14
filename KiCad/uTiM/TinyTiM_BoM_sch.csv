@@ -1,0 +1,108 @@
+Reference, Value, Footprint, Datasheet, Field4, Field5, Field6, Field7, Field8, Field9, Field10, Field11
+L101,OSHW,TinyTiM_Lib:OSHW_6mm,
+L102,Wyolum,TinyTiM_Lib:Logo-WL3,
+P125,G>H,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P126,F>G,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P127,E>F,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P128,D>E,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P129,C>D,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P130,B>C,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P131,A>B,TinyTiM_Libs:ShortLink2,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",Samtec Inc,TSW-150-07-L-S,Digikey,SAM1031-50-ND,http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=SAM1031-50-ND&x=15&y=16&cur=USD
+P3,Data_In,TinyTiM_Lib:Header_8x2,
+P4,Data_Out,TinyTiM_Lib:Header_8x2,
+P5,Data_In_Serial,TinyTiM_Libs:Conn_x3_PTSM,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",,,,,
+P6,Data_Out_Serial,TinyTiM_Libs:Conn_x3_PTSM,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",,,,,
+P1,Data_In_Serial,TinyTiM_Libs:Conn_x3_PTSM,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",,,,,
+P2,Data_Out_Serial,TinyTiM_Libs:Conn_x3_PTSM,,CONN HEADER 50POS .100" SGL GOLD,Header, Unshrouded, Male pin,,0.1",,,,,
+U801,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C801,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U802,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U803,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U804,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U805,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U806,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U807,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U808,RGB_WS2811B,TinyTiM_Lib:RGB_WS2811B,
+S801,CONN_1,TinyTiM_Libs:Screw_NPTH,
+S802,CONN_1,TinyTiM_Libs:Screw_NPTH,
+C817,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+S803,CONN_1,TinyTiM_Libs:Screw_NPTH,
+S804,CONN_1,TinyTiM_Libs:Screw_NPTH,
+U701,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C701,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U702,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U703,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U704,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U705,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U706,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U707,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C717,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+U708,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U601,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C601,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U602,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U603,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U604,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U605,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U606,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U607,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U608,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C617,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+U501,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C501,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U502,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U503,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U504,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U505,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U506,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U507,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U508,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+S501,CONN_1,TinyTiM_Libs:Screw_NPTH,
+S502,CONN_1,TinyTiM_Libs:Screw_NPTH,
+C517,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+U401,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C401,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U402,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U403,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U404,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U405,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U406,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U407,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U408,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+S401,CONN_1,TinyTiM_Libs:Screw_NPTH,
+S402,CONN_1,TinyTiM_Libs:Screw_NPTH,
+C417,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+U301,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C301,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U302,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U303,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U304,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U305,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U306,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U307,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U308,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C317,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+U201,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C201,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U202,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U203,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U204,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U205,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U206,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U207,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U208,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+C217,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+U101,RGB_WS2811B,TinyTiM_Lib:RGB_WS2811B,
+C101,100n,TinyTiM_Libs:c_0805,,CAP CER 0.1UF 25V 10% X7R 0805,100nF, 25V,Surface Mount, MLCC,Kemet,C0805C104K3RACTU,Digikey,399-1168-1-ND,http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/411443
+U102,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U103,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U104,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U105,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U106,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U107,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+U108,RGB_WS2811B,TinyTiM_Libs:RGB_WS2811B_Trans,
+S101,CONN_1,TinyTiM_Libs:Screw_NPTH,
+S102,CONN_1,TinyTiM_Libs:Screw_NPTH,
+C117,47u,8V,TinyTiM_Libs:c_2917,,CAP ALUM 47UF 8V 20% SMD,47u,8V,2917 (7343 Metric),Panasonic Electronic Components,EEF-CD0K470R,Digikey,PCE3606CT-ND,http://www.digikey.com/product-detail/en/EEF-CD0K470R/PCE3606CT-ND/614442
+S103,CONN_1,TinyTiM_Libs:Screw_NPTH,
+S104,CONN_1,TinyTiM_Libs:Screw_NPTH,

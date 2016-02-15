@@ -35,30 +35,6 @@ F 11 "http://www.digikey.com/product-detail/en/C0805C104K3RACTU/399-1168-1-ND/41
 	1    1800 2600
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_1 S101
-U 1 1 5118AB77
-P 4600 6650
-F 0 "S101" V 4680 6650 40  0000 L CNN
-F 1 "DI_A" H 4600 6705 30  0001 C CNN
-F 2 "TinyTiM_Libs:Contact_SMD" H 4600 6805 30  0001 C CNN
-F 3 "" H 4600 6650 60  0001 C CNN
-	1    4600 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_1 S102
-U 1 1 5118AB75
-P 5150 6650
-F 0 "S102" V 5230 6650 40  0000 L CNN
-F 1 "CI_A" H 5150 6705 30  0001 C CNN
-F 2 "TinyTiM_Libs:Contact_SMD" H 5150 6805 30  0001 C CNN
-F 3 "" H 5150 6650 60  0001 C CNN
-	1    5150 6650
-	0    -1   -1   0   
-$EndComp
-Text Notes 5200 7300 0    60   ~ 0
-Mounting Screws
 Text Label 1250 6350 0    60   ~ 0
 5V
 Text Label 1250 7200 0    60   ~ 0
@@ -86,40 +62,6 @@ Wire Wire Line
 	1250 7000 1250 7200
 Wire Wire Line
 	1250 6550 1250 6350
-$Comp
-L LOGO_1 S103
-U 1 1 5356BD57
-P 5700 6650
-F 0 "S103" V 5780 6650 40  0000 L CNN
-F 1 "MH" H 5700 6705 30  0001 C CNN
-F 2 "TinyTiM_Libs:Screw_NPTH" H 5700 6805 30  0001 C CNN
-F 3 "" H 5700 6650 60  0001 C CNN
-	1    5700 6650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LOGO_1 S104
-U 1 1 5356BD5D
-P 5900 6650
-F 0 "S104" V 5980 6650 40  0000 L CNN
-F 1 "MH" H 5900 6705 30  0001 C CNN
-F 2 "TinyTiM_Libs:Screw_NPTH" H 5900 6805 30  0001 C CNN
-F 3 "" H 5900 6650 60  0001 C CNN
-	1    5900 6650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4600 6800 4600 6900
-Wire Wire Line
-	4600 6900 4350 6900
-Wire Wire Line
-	5150 6800 5150 6900
-Wire Wire Line
-	5150 6900 4900 6900
-Text Label 4350 6900 0    60   ~ 0
-DI_A
-Text Label 4900 6900 0    60   ~ 0
-CI_A
 Text Label 1075 1400 0    60   ~ 0
 DI_A
 Text HLabel 950  3100 0    60   Output ~ 12
@@ -383,26 +325,4 @@ Text Label 1075 3350 0    60   ~ 0
 DI_B
 Text Label 1075 1600 0    60   ~ 0
 CI_A
-$Comp
-L LOGO_1 S105
-U 1 1 56C43470
-P 5700 6850
-F 0 "S105" V 5780 6850 40  0000 L CNN
-F 1 "MH" H 5700 6905 30  0001 C CNN
-F 2 "TinyTiM_Libs:Screw_NPTH" H 5700 7005 30  0001 C CNN
-F 3 "" H 5700 6850 60  0001 C CNN
-	1    5700 6850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L LOGO_1 S106
-U 1 1 56C43845
-P 5900 6850
-F 0 "S106" V 5980 6850 40  0000 L CNN
-F 1 "MH" H 5900 6905 30  0001 C CNN
-F 2 "TinyTiM_Libs:Screw_NPTH" H 5900 7005 30  0001 C CNN
-F 3 "" H 5900 6850 60  0001 C CNN
-	1    5900 6850
-	0    -1   -1   0   
-$EndComp
 $EndSCHEMATC

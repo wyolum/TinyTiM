@@ -21,7 +21,7 @@ L LOGO_1 S401
 U 1 1 5118AB7B
 P 5300 6650
 F 0 "S401" V 5380 6650 40  0000 L CNN
-F 1 "CONN_1" H 5300 6705 30  0001 C CNN
+F 1 "MH" H 5300 6705 30  0001 C CNN
 F 2 "TinyTiM_Libs:Screw_NPTH" H 5300 6805 30  0001 C CNN
 F 3 "" H 5300 6650 60  0001 C CNN
 	1    5300 6650
@@ -32,7 +32,7 @@ L LOGO_1 S402
 U 1 1 5118AB76
 P 5500 6650
 F 0 "S402" V 5580 6650 40  0000 L CNN
-F 1 "CONN_1" H 5500 6705 30  0001 C CNN
+F 1 "MH" H 5500 6705 30  0001 C CNN
 F 2 "TinyTiM_Libs:Screw_NPTH" H 5500 6805 30  0001 C CNN
 F 3 "" H 5500 6650 60  0001 C CNN
 	1    5500 6650
@@ -70,7 +70,7 @@ Wire Wire Line
 Text Label 1075 1400 0    60   ~ 0
 DI_D
 Text HLabel 950  3100 0    60   Output ~ 12
-CO_D
+CI_E
 Text HLabel 950  2350 0    60   Input ~ 12
 GND
 $Comp
@@ -90,7 +90,7 @@ GND
 Text Label 1075 2850 0    60   ~ 0
 5V
 Text Label 1075 3100 0    60   ~ 0
-CO_D
+CI_E
 $Comp
 L C2 C401
 U 1 1 56C2745E
@@ -336,7 +336,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 3350 950  3350
 Text HLabel 950  3350 0    60   Output ~ 12
-DO_D
+DI_E
 Text HLabel 950  1400 0    60   Input ~ 12
 DI_D
 Text HLabel 950  1600 0    60   Input ~ 12
@@ -346,7 +346,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1600 950  1600
 Text Label 1075 3350 0    60   ~ 0
-DO_D
+DI_E
 Text Label 1075 1600 0    60   ~ 0
 CI_D
 $EndSCHEMATC

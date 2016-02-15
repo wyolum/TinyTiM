@@ -1,4 +1,4 @@
-update=Saturday 26 April 2014 11:53:37 AM IST
+update=Sat Sep 12 22:01:08 2015
 version=1
 last_client=kicad
 [cvpcb]
@@ -11,20 +11,6 @@ LibDir=
 NetType=0
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
-version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=40
-[eeschema/libraries]
-LibName1=TinyTiM_Libs/TinyTiM_sym
-LibName2=power
 [pcbnew]
 version=1
 LastNetListRead=TiM.net
@@ -49,3 +35,10 @@ LibDir=
 LibName1=TinyTiM_Libs/TinyTiM_fp
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=TinyTiM-rescue
+LibName2=TinyTiM_Libs/TinyTiM_sym
+LibName3=power

@@ -65,7 +65,7 @@ Wire Wire Line
 Text Label 1075 1400 0    60   ~ 0
 DI_G
 Text HLabel 950  3100 0    60   Output ~ 12
-CO_G
+CI_H
 Text HLabel 950  2350 0    60   Input ~ 12
 GND
 $Comp
@@ -85,7 +85,7 @@ GND
 Text Label 1075 2850 0    60   ~ 0
 5V
 Text Label 1075 3100 0    60   ~ 0
-CO_G
+CI_H
 $Comp
 L GND #PWR05
 U 1 1 56C1D38B
@@ -312,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 3350 950  3350
 Text HLabel 950  3350 0    60   Output ~ 12
-DO_G
+DI_H
 Text HLabel 950  1400 0    60   Input ~ 12
 DI_G
 Text HLabel 950  1600 0    60   Input ~ 12
@@ -322,7 +322,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1600 950  1600
 Text Label 1075 3350 0    60   ~ 0
-DO_G
+DI_H
 Text Label 1075 1600 0    60   ~ 0
 CI_G
 $EndSCHEMATC

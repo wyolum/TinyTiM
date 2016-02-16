@@ -1,4 +1,4 @@
-update=Tue Feb 16 00:06:41 2016
+update=Tue Feb 16 18:34:51 2016
 version=1
 last_client=kicad
 [cvpcb]
@@ -50,15 +50,12 @@ LibName1=TinyTiM_Libs/TinyTiM_fp
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=TinyTiM_Gerber/
+PlotDirectoryName=gerber/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
 LabSize=50
 [general]
 version=1
